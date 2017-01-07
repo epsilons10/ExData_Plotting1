@@ -44,7 +44,8 @@ rm(all_data)
 png("plot1.png", width=480, height=480)
 
 # draw the histogram using hist command
-hist(sub_data$Global_active_power, main="Global Active Power", xlab="Global Active Power (kilowatts)", ylab="Frequency", col="Red")
+hist(sub_data$Global_active_power, main="Global Active Power", xlab="Global Active Power (kilowatts)", 
+     ylab="Frequency", col="Red")
 
 # close the device
 dev.off()

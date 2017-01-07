@@ -51,7 +51,8 @@ png("plot3.png", width=480, height=480)
 plot(sub_data$Datetime, sub_data$Sub_metering_1, type="l", xlab="", ylab="Energy sub metering")
 lines(sub_data$Datetime, sub_data$Sub_metering_2, col="Red")
 lines(sub_data$Datetime, sub_data$Sub_metering_3, col="Blue")
-legend("topright", col=c("black", "red", "blue"), lty=1, lwd=2, legend=c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"))
+legend("topright", col=c("black", "red", "blue"), lty=1, lwd=2, 
+       legend=c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"))
 
 # close the device
 dev.off()
