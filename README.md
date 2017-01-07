@@ -89,7 +89,7 @@ GitHub so that the GitHub version of your repository is up to
 date. There should be four PNG files and four R code files.
 
 
-The four plots that you will need to construct are shown below. 
+The four plots that will need to construct are shown below. 
 
 
 ### Plot 1
